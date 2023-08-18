@@ -24,9 +24,9 @@ export class DbzService {
 
     //crea un character nuevo asignadole el id y copiando el resto
     //de campos del character que recibimos por parametros
-    const newCharacter: Character = {id: uuid(), ...character} ;
+    const newCharacter: Character = {id: uuid(), ...character};
 
-    this.characters.push(character);
+    this.characters.push(newCharacter);
   }
 
   //onDeleteCharacter( index: number):void{
